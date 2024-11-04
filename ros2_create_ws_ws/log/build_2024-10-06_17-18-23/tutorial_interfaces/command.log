@@ -1,0 +1,6 @@
+Invoking command in '/home/paulo/ros2_create_ws_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paulo/ros2_create_ws_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/paulo/ros2_create_ws_ws/install/tutorial_interfaces
+Invoked command in '/home/paulo/ros2_create_ws_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paulo/ros2_create_ws_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/paulo/ros2_create_ws_ws/install/tutorial_interfaces
+Invoking command in '/home/paulo/ros2_create_ws_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paulo/ros2_create_ws_ws/build/tutorial_interfaces -- -j6 -l6
+Invoked command in '/home/paulo/ros2_create_ws_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paulo/ros2_create_ws_ws/build/tutorial_interfaces -- -j6 -l6
+Invoking command in '/home/paulo/ros2_create_ws_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paulo/ros2_create_ws_ws/build/tutorial_interfaces
+Invoked command in '/home/paulo/ros2_create_ws_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paulo/ros2_create_ws_ws/build/tutorial_interfaces

@@ -1,0 +1,30 @@
+[2.817s] Invoking command in '/home/paulo/ros2_ws/build/examples_rclpy_minimal_action_server': PYTHONPATH=/home/paulo/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/paulo/ros2_ws/build/examples_rclpy_minimal_action_server/build --no-deps symlink_data
+[3.995s] running develop
+[4.001s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.001s]   warnings.warn(
+[4.533s] running egg_info
+[4.534s] creating examples_rclpy_minimal_action_server.egg-info
+[4.534s] writing examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[4.535s] writing dependency_links to examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[4.535s] writing entry points to examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[4.535s] writing requirements to examples_rclpy_minimal_action_server.egg-info/requires.txt
+[4.536s] writing top-level names to examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[4.536s] writing manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.539s] reading manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.540s] writing manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.543s] running build_ext
+[4.544s] Creating /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples-rclpy-minimal-action-server.egg-link (link to .)
+[4.545s] Installing server script to /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.546s] Installing server_defer script to /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.546s] Installing server_not_composable script to /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.546s] Installing server_queue_goals script to /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.547s] Installing server_single_goal script to /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.547s] 
+[4.547s] Installed /home/paulo/ros2_ws/build/examples_rclpy_minimal_action_server
+[4.547s] running symlink_data
+[4.547s] creating /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index
+[4.548s] creating /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index
+[4.548s] creating /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[4.548s] symbolically linking /home/paulo/ros2_ws/build/examples_rclpy_minimal_action_server/resource/examples_rclpy_minimal_action_server -> /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[4.549s] symbolically linking /home/paulo/ros2_ws/build/examples_rclpy_minimal_action_server/package.xml -> /home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[4.602s] Invoked command in '/home/paulo/ros2_ws/build/examples_rclpy_minimal_action_server' returned '0': PYTHONPATH=/home/paulo/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/paulo/ros2_ws/build/examples_rclpy_minimal_action_server/build --no-deps symlink_data

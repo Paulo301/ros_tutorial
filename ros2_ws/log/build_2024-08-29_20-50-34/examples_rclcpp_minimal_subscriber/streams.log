@@ -1,0 +1,116 @@
+[0.027s] Invoking command in '/home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paulo/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[0.401s] -- The C compiler identification is GNU 11.4.0
+[0.401s] -- The CXX compiler identification is GNU 11.4.0
+[0.401s] -- Detecting C compiler ABI info
+[0.444s] -- Detecting C compiler ABI info - done
+[0.469s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.469s] -- Detecting C compile features
+[0.473s] -- Detecting C compile features - done
+[0.486s] -- Detecting CXX compiler ABI info
+[0.613s] -- Detecting CXX compiler ABI info - done
+[0.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.642s] -- Detecting CXX compile features
+[0.643s] -- Detecting CXX compile features - done
+[0.648s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.010s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.140s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.183s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.271s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.286s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.320s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.507s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.513s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.732s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.826s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.958s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.982s] -- Looking for pthread.h
+[2.132s] -- Looking for pthread.h - found
+[2.132s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.339s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.340s] -- Found Threads: TRUE  
+[2.573s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.709s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.936s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.937s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.938s] -- Configured cppcheck include dirs: 
+[2.938s] -- Configured cppcheck exclude dirs and/or files: 
+[2.944s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.944s] -- Configured cpplint exclude dirs and/or files: 
+[2.945s] -- Added test 'lint_cmake' to check CMake code style
+[2.945s] -- Added test 'uncrustify' to check C / C++ code style
+[2.949s] -- Configured uncrustify additional arguments: 
+[2.949s] -- Added test 'xmllint' to check XML markup files
+[2.950s] -- Configuring done
+[3.083s] -- Generating done
+[3.099s] -- Build files have been written to: /home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[3.165s] Invoked command in '/home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paulo/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[3.165s] Invoking command in '/home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j6 -l6
+[4.245s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[4.245s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[4.245s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[4.245s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[4.245s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[4.246s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[34.466s] [ 29%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[34.665s] [ 33%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[34.970s] [ 37%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[35.079s] [ 41%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[35.451s] [ 45%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[36.498s] [ 45%] Built target subscriber_not_composable
+[36.759s] [ 45%] Built target subscriber_member_function
+[36.784s] [ 45%] Built target subscriber_member_function_with_topic_statistics
+[37.029s] [ 45%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[37.046s] [ 45%] Built target subscriber_lambda
+[38.225s] [ 50%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[39.142s] [ 50%] Built target subscriber_member_function_with_type_adapter
+[39.198s] [ 54%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[44.563s] [ 58%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[44.769s] [ 58%] Built target time_triggered_wait_set_subscriber
+[44.805s] [ 62%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[48.435s] [ 66%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[48.595s] [ 66%] Built target static_wait_set_subscriber
+[48.614s] [ 70%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[51.499s] [ 75%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[51.638s] [ 75%] Built target wait_set_subscriber
+[51.657s] [ 79%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[59.675s] [ 83%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[67.467s] [ 87%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[74.769s] [ 91%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[75.502s] [ 91%] Built target wait_set_subscriber_library
+[75.522s] [ 95%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[82.542s] [100%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[82.914s] [100%] Built target subscriber_content_filtering
+[82.926s] Invoked command in '/home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j6 -l6
+[82.989s] Invoking command in '/home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[82.997s] -- Install configuration: ""
+[82.998s] -- Execute custom install script
+[82.998s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[83.007s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[83.016s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[83.023s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[83.032s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[83.040s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[83.050s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[83.058s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[83.067s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[83.076s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[83.084s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[83.092s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[83.101s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[83.109s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[83.118s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[83.127s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[83.135s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[83.143s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[83.152s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[83.160s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[83.169s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[83.177s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[83.185s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[83.193s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[83.203s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[83.212s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[83.220s] -- Symlinking: /home/paulo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[83.231s] Invoked command in '/home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paulo/ros2_ws/build/examples_rclcpp_minimal_subscriber

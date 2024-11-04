@@ -1,0 +1,25 @@
+[1.312s] Invoking command in '/home/paulo/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/paulo/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulo/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/paulo/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
+[1.866s] running develop
+[1.867s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.868s]   warnings.warn(
+[2.113s] running egg_info
+[2.113s] creating launch_testing_examples.egg-info
+[2.114s] writing launch_testing_examples.egg-info/PKG-INFO
+[2.116s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[2.116s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[2.116s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[2.116s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[2.116s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.117s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.119s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.119s] running build_ext
+[2.119s] Creating /home/paulo/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[2.120s] 
+[2.120s] Installed /home/paulo/ros2_ws/build/launch_testing_examples
+[2.120s] running symlink_data
+[2.121s] creating /home/paulo/ros2_ws/install/launch_testing_examples/share/ament_index
+[2.121s] creating /home/paulo/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[2.121s] creating /home/paulo/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.121s] symbolically linking /home/paulo/ros2_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/paulo/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.121s] symbolically linking /home/paulo/ros2_ws/build/launch_testing_examples/package.xml -> /home/paulo/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[2.169s] Invoked command in '/home/paulo/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/paulo/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paulo/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/paulo/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
